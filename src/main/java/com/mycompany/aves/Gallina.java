@@ -4,11 +4,13 @@
  */
 package com.mycompany.aves;
 
+import com.mycompany.aves.interfaces.Volar;
+
 /**
  *
  * @author jhon
  */
-public class Gallina extends Ave {
+public class Gallina extends Ave implements Volar{
     @Override
     public void makeSound(){
         System.out.println("Grasna");
