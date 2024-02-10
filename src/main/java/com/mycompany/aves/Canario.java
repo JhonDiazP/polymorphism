@@ -4,19 +4,16 @@
  */
 package com.mycompany.aves;
 
-import com.mycompany.aves.interfaces.Volar;
+import com.mycompany.aves.supertypeimp.Canto;
+import com.mycompany.aves.supertypeimp.VueloConAlas;
 
 /**
  *
  * @author jhon
  */
-public class Canario extends Ave implements Volar{
-    @Override
-    public void makeSound(){
-        System.out.println("Canta");
-    }
-
-    public void vuela(){
-        System.out.println("vuela con alas");
+public class Canario extends Ave{
+    public Canario(){
+        tipoSonido = new Canto();
+        tipoVuelo = new VueloConAlas();
     }
 }

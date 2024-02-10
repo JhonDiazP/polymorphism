@@ -4,11 +4,22 @@
  */
 package com.mycompany.aves;
 
+import com.mycompany.aves.supertype.TipoSonido;
+import com.mycompany.aves.supertype.TipoVuelo;
+
 /**
  *
  * @author jhon
  */
 public abstract class Ave {
-    public abstract void makeSound();
-    public abstract void vuela();
+    TipoSonido tipoSonido;
+    TipoVuelo tipoVuelo;
+
+    public void realizaVuelo(){
+        tipoVuelo.vuelo();
+    }
+
+    public void realizaSonido(){
+        tipoSonido.makeSound();
+    }
 }

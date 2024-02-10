@@ -4,17 +4,16 @@
  */
 package com.mycompany.aves;
 
+import com.mycompany.aves.supertypeimp.SinCanto;
+import com.mycompany.aves.supertypeimp.SinVuelo;
+
 /**
  *
  * @author jhon
  */
 public class AvesTruz extends Ave {
-    @Override
-    public void makeSound(){
-        System.out.println("<<Silencio>>");
-    }
-
-    public void vuela(){
-        System.out.println("no vuela");
+    public AvesTruz(){
+        tipoSonido = new SinCanto();
+        tipoVuelo = new SinVuelo();
     }
 }
