@@ -11,4 +11,12 @@
         <maven.compiler.target>21</maven.compiler.target>
         <exec.mainClass>com.mycompany.aves.Aves</exec.mainClass>
     </properties>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <type>jar</type>
+        </dependency>
+    </dependencies>
 </project>

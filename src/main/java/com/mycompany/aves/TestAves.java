@@ -4,9 +4,12 @@ import com.mycompany.aves.supertypeimp.Canto;
 import com.mycompany.aves.supertypeimp.Grasnido;
 import com.mycompany.aves.supertypeimp.SinCanto;
 
+import org.junit.Assert;
+
 public class TestAves {
     public void canarioTest(){
-        Canario canario = new Canario(); 
+        Canario canario = new Canario();
+        Assert.assertNotNull(canario);
         System.out.println("Canario ejecuta vuelo");
         canario.realizaVuelo();
         System.out.println("Canario ejecuta canto");
@@ -19,6 +22,7 @@ public class TestAves {
 
     public void avestruzTest(){
         AvesTruz avesTruz = new AvesTruz(); 
+        Assert.assertNotNull(avesTruz);
         System.out.println("Avestruz ejecuta vuelo");
         avesTruz.realizaVuelo();
         System.out.println("Aveztruz ejecuta canto");
@@ -31,6 +35,7 @@ public class TestAves {
 
     public void gallinaTest(){
         Gallina gallina = new Gallina(); 
+        Assert.assertNotNull(gallina);
         System.out.println("Gallina ejecuta vuelo");
         gallina.realizaVuelo();
         System.out.println("Gallina ejecuta canto");
