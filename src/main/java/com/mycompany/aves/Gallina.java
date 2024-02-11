@@ -13,8 +13,8 @@ import com.mycompany.aves.supertypeimp.VueloConAlas;
  */
 public class Gallina extends Ave{
     public Gallina(){
-        tipoSonido = new Grasnido();
-        tipoVuelo = new VueloConAlas();
+        this.setTipoSonido(new Grasnido());
+        this.setTipoVuelo(new VueloConAlas());
     }
 }
 
