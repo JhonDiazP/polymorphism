@@ -10,6 +10,15 @@ package com.mycompany.aves;
  */
 public class Aves {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        TestAves test = new TestAves();
+        
+        System.out.println("Ejecutando Test del Avesturz\n");
+        test.avestruzTest();
+        System.out.println("\n\n");
+        System.out.println("Ejecutando Test del Canario");
+        test.canarioTest();
+        System.out.println("\n\n");
+        System.out.println("Ejecutando Test de la Gallina");
+        test.gallinaTest();
     }
 }

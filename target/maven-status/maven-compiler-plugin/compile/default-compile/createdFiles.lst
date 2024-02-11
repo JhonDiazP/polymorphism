@@ -1,3 +1,13 @@
-com\mycompany\aves\Ave.class
+com\mycompany\aves\TestAves.class
 com\mycompany\aves\Aves.class
+com\mycompany\aves\Gallina.class
+com\mycompany\aves\supertype\TipoSonido.class
+com\mycompany\aves\supertypeimp\SinVuelo.class
 com\mycompany\aves\AvesTruz.class
+com\mycompany\aves\supertype\TipoVuelo.class
+com\mycompany\aves\supertypeimp\SinCanto.class
+com\mycompany\aves\Ave.class
+com\mycompany\aves\Canario.class
+com\mycompany\aves\supertypeimp\Canto.class
+com\mycompany\aves\supertypeimp\Grasnido.class
+com\mycompany\aves\supertypeimp\VueloConAlas.class

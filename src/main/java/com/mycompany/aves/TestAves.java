@@ -7,9 +7,9 @@ import com.mycompany.aves.supertypeimp.SinCanto;
 public class TestAves {
     public void canarioTest(){
         Canario canario = new Canario(); 
-        System.out.println("Canario vuela");
+        System.out.println("Canario ejecuta vuelo");
         canario.realizaVuelo();
-        System.out.println("Canario canta");
+        System.out.println("Canario ejecuta canto");
         canario.realizaSonido();
         System.out.println("Cambiamos el sonido");
         canario.setTipoSonido(new Grasnido());
@@ -19,9 +19,9 @@ public class TestAves {
 
     public void avestruzTest(){
         AvesTruz avesTruz = new AvesTruz(); 
-        System.out.println("Avestruz no vuela");
+        System.out.println("Avestruz ejecuta vuelo");
         avesTruz.realizaVuelo();
-        System.out.println("Aveztruz canta");
+        System.out.println("Aveztruz ejecuta canto");
         avesTruz.realizaSonido();
         System.out.println("Cambiamos el sonido");
         avesTruz.setTipoSonido(new Canto());
@@ -31,13 +31,13 @@ public class TestAves {
 
     public void gallinaTest(){
         Gallina gallina = new Gallina(); 
-        System.out.println("gallina vuela");
+        System.out.println("Gallina ejecuta vuelo");
         gallina.realizaVuelo();
-        System.out.println("gallina canta");
+        System.out.println("Gallina ejecuta canto");
         gallina.realizaSonido();
         System.out.println("Cambiamos el sonido");
         gallina.setTipoSonido(new SinCanto());
-        System.out.println("gallina realiza el sonido");
+        System.out.println("Gallina realiza el sonido");
         gallina.realizaSonido();
     }
 }
